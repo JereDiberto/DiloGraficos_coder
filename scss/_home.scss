@@ -1,0 +1,109 @@
+.main-todo{
+    display: flex;
+}
+
+.main-todo div{
+padding: 5vw;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: flex-end;
+}
+
+.main-iso{
+    height: 25vw;
+    width: 25vw;
+    padding-left: 3vw;
+    
+}
+
+.main-texto{
+    color: $azul2 ;
+    font-size: 6vw;
+    font-weight: 900;
+    margin-left: 5vw;
+    line-height: 1.1em;
+}
+
+/* carrusel */
+.carousel{
+    margin-top: 2vw;
+}
+
+/* CARDS */
+
+.cards-containerDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-top: 5vw;
+
+}
+
+.card{
+    width: 25vw;
+    height: auto;
+    border: none;
+
+    margin: 4vw 2vw 0 2vw;
+}
+
+.card-title{
+    color: $verde2;
+}
+
+.card:hover{
+    filter: saturate(5);
+    box-shadow: 10px 10px 30px grey;
+    cursor: pointer;
+}
+
+
+/* formulario */
+
+.form-container{
+    background-color: $negro;
+}
+.form{
+    margin: 0vw 30vw 0 30vw ;
+    color: $blanco;
+
+}
+
+.form-group1{
+    padding-top: 3vw;
+}
+.form-group{
+    padding-top: 2vw;
+}
+
+.btn{
+    margin-top: 2vw;
+}
+
+/* Servicios */
+
+.servicios-contendedor{
+    margin-bottom: 15vw;
+
+}
+
+.servicios-titulo{
+    background-color: $verde1;
+    margin: 0 auto;
+    padding: 6vw 3vw 6vw 3vw;
+    border-radius: 0.5vw;
+    text-align: center;
+
+    transition: 1s;
+}
+
+.servicios-titulo:hover{
+    background-color: $rosa;
+/*     padding: 7vw 4vw 7vw 4vw; */
+    box-shadow: 2px 2px 5px grey;
+    cursor: pointer;
+
+    transform: scale(150%);
+
+}

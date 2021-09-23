@@ -1,0 +1,127 @@
+div ul li {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  padding-left: 1.5vw; }
+
+.navbar-brand {
+  padding-left: 5vw; }
+
+.redes {
+  height: 1.2em;
+  width: 1.2em;
+  margin: 0.5rem; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  padding: 1vw; }
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #D78B3A; }
+
+.dropdown-item:hover {
+  color: black;
+  background-color: #D78B3A; }
+
+/* footer */
+footer {
+  background-color: black; }
+
+.footer-contenedeor {
+  height: 10vw; }
+
+.footer-links {
+  text-decoration: none;
+  padding: 2vw;
+  color: white; }
+
+.footer-links:hover {
+  color: #D78B3A; }
+
+.footer-logo {
+  width: 10%;
+  margin: 2vw; }
+
+.main-todo {
+  display: flex; }
+
+.main-todo div {
+  padding: 5vw;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-end; }
+
+.main-iso {
+  height: 25vw;
+  width: 25vw;
+  padding-left: 3vw; }
+
+.main-texto {
+  color: #286CCD;
+  font-size: 6vw;
+  font-weight: 900;
+  margin-left: 5vw;
+  line-height: 1.1em; }
+
+/* carrusel */
+.carousel {
+  margin-top: 2vw; }
+
+/* CARDS */
+.cards-containerDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5vw; }
+
+.card {
+  width: 25vw;
+  height: auto;
+  border: none;
+  margin: 4vw 2vw 0 2vw; }
+
+.card-title {
+  color: #065249; }
+
+.card:hover {
+  filter: saturate(5);
+  box-shadow: 10px 10px 30px grey;
+  cursor: pointer; }
+
+/* formulario */
+.form-container {
+  background-color: black; }
+
+.form {
+  margin: 0vw 30vw 0 30vw;
+  color: white; }
+
+.form-group1 {
+  padding-top: 3vw; }
+
+.form-group {
+  padding-top: 2vw; }
+
+.btn {
+  margin-top: 2vw; }
+
+/* Servicios */
+.servicios-contendedor {
+  margin-bottom: 15vw; }
+
+.servicios-titulo {
+  background-color: #82B39B;
+  margin: 0 auto;
+  padding: 6vw 3vw 6vw 3vw;
+  border-radius: 0.5vw;
+  text-align: center;
+  transition: 1s; }
+
+.servicios-titulo:hover {
+  background-color: #E4A4AD;
+  /*     padding: 7vw 4vw 7vw 4vw; */
+  box-shadow: 2px 2px 5px grey;
+  cursor: pointer;
+  transform: scale(150%); }
+
+body {
+  font-family: 'Montserrat', sans-serif; }
