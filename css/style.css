@@ -32,7 +32,8 @@ footer {
 .footer-links {
   text-decoration: none;
   padding: 2vw;
-  color: white; }
+  color: white;
+  font-size: 1.5vw; }
 
 .footer-links:hover {
   color: #D78B3A; }
@@ -108,9 +109,32 @@ footer {
 .servicios-contendedor {
   margin-bottom: 15vw; }
 
+.servicios-img {
+  border-radius: 0.5vw;
+  height: 18vw;
+  width: auto;
+  filter: grayscale(100%) contrast(30%);
+  transition: 1s; }
+
+.servicios-img:hover {
+  box-shadow: 2px 2px 5px grey;
+  cursor: pointer;
+  filter: none;
+  transform: scale(150%); }
+
+.servicios-txt {
+  text-align: center;
+  font-family: montserrat, sans-serif;
+  font-size: 1.2vw;
+  font-weight: 500;
+  margin-top: 1vw;
+  background-color: #E4A4AD;
+  color: #286CCD;
+  border-radius: 0.5vw; }
+
 .servicios-titulo {
   background-color: #82B39B;
-  margin: 0 auto;
+  margin: 2vw;
   padding: 6vw 3vw 6vw 3vw;
   border-radius: 0.5vw;
   text-align: center;

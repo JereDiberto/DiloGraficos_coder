@@ -88,9 +88,38 @@ align-items: flex-end;
 
 }
 
+.servicios-img{
+    border-radius: 0.5vw;
+    height: 18vw;
+    width: auto;
+    filter: grayscale(100%) contrast(30%);
+
+    transition: 1s;
+}
+
+.servicios-img:hover{
+    box-shadow: 2px 2px 5px grey;
+    cursor: pointer;
+    filter: none;
+
+    transform: scale(150%);
+}
+
+.servicios-txt{
+    text-align: center;
+    font-family: montserrat, sans-serif;
+    font-size: 1.2vw;
+    font-weight: 500;
+    margin-top: 1vw;
+    background-color: $rosa;
+    color: $azul2;
+    border-radius: 0.5vw;
+}
+
+
 .servicios-titulo{
     background-color: $verde1;
-    margin: 0 auto;
+    margin: 2vw;
     padding: 6vw 3vw 6vw 3vw;
     border-radius: 0.5vw;
     text-align: center;
@@ -105,5 +134,4 @@ align-items: flex-end;
     cursor: pointer;
 
     transform: scale(150%);
-
 }
