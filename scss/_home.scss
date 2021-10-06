@@ -26,7 +26,7 @@ align-items: flex-end;
 
 /* carrusel */
 .carousel{
-    margin-top: 2vw;
+    margin-top: 1vw;
 }
 
 /* CARDS */
@@ -65,7 +65,7 @@ align-items: flex-end;
     background-color: $negro;
 }
 .form{
-    margin: 0vw 30vw 0 30vw ;
+    margin: 0vw 30vw 0vw 30vw ;
     color: $blanco;
 
 }
@@ -81,10 +81,12 @@ align-items: flex-end;
     margin-top: 2vw;
 }
 
+
 /* Servicios */
 
 .servicios-contendedor{
-    margin-bottom: 15vw;
+    margin-top: 3vw;
+    margin-bottom: 6vw;
 
 }
 
