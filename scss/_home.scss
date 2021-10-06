@@ -90,6 +90,13 @@ align-items: flex-end;
 
 }
 
+.servicios-contendedor a{
+    text-decoration: none;
+
+}
+
+
+
 .servicios-img{
     border-radius: 0.5vw;
     height: 18vw;
@@ -116,6 +123,7 @@ align-items: flex-end;
     background-color: $rosa;
     color: $azul2;
     border-radius: 0.5vw;
+    text-decoration: none;
 }
 
 
