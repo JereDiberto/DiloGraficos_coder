@@ -169,20 +169,37 @@ footer {
   border-radius: 0.5vw;
   text-decoration: none; }
 
-.servicios-titulo {
-  background-color: #82B39B;
-  margin: 2vw;
-  padding: 6vw 3vw 6vw 3vw;
-  border-radius: 0.5vw;
-  text-align: center;
-  transition: 1s; }
-
-.servicios-titulo:hover {
-  background-color: #E4A4AD;
-  /*     padding: 7vw 4vw 7vw 4vw; */
-  box-shadow: 2px 2px 5px grey;
-  cursor: pointer;
-  transform: scale(150%); }
+@media screen and (max-width: 1125px) {
+  .servicios-contendedor {
+    flex-wrap: wrap;
+    flex-direction: column; }
+  .servicios-img {
+    height: 40vw; }
+  .servicios-txt {
+    text-align: center;
+    font-family: montserrat, sans-serif;
+    font-size: 4vw;
+    font-weight: 500;
+    margin-top: 2vw;
+    margin-bottom: 6vw;
+    background-color: #E4A4AD;
+    color: #286CCD;
+    border-radius: 0.5vw;
+    text-decoration: none; }
+  /* CARDS */
+  .cards-containerDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5vw 0 0 30vw;
+    margin-top: 5vw; }
+  .card {
+    width: 40vw;
+    height: auto;
+    border: none; }
+  .card-title {
+    color: #065249;
+    font-size: 5vw; } }
 
 .grids2 {
   margin: 4vw 0vw 0vw 9vw;
