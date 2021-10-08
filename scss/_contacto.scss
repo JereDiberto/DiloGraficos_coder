@@ -1,0 +1,49 @@
+.contacto-titulo{
+    padding-top: 5vw;
+    color: $rosa;
+    text-align: center;
+    
+}
+
+.contactoForm-container{
+    background-color: $negro;
+}
+.contactoForm{
+    margin: 0vw 30vw 0vw 30vw ;
+    color: $blanco;
+    padding-top: 1vw;
+    padding-bottom: 5vw;
+
+}
+
+.contacto-instagram{
+    margin-top: 2vw;
+}
+
+.contactoForm-group{
+    padding-top: 3vw;
+}
+.contactoForm-group{
+    padding-top: 2vw;
+}
+
+.contacto-check{
+    padding-top: 2vw;
+}
+
+.contacto-select{
+    padding-top: 2vw;
+}
+
+.btn{
+    margin-top: 2vw;
+}
+
+
+@media screen and (max-width:1125px){
+    .contactoForm{
+        margin: 0vw 10vw 0vw 10vw ;
+        color: $blanco;
+    
+    }
+}

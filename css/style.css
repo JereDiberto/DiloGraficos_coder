@@ -170,6 +170,10 @@ footer {
   text-decoration: none; }
 
 @media screen and (max-width: 1125px) {
+  .main-texto {
+    font-size: 10vw; }
+  .main-iso {
+    display: none; }
   .servicios-contendedor {
     flex-wrap: wrap;
     flex-direction: column; }
@@ -191,15 +195,15 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 5vw 0 0 30vw;
-    margin-top: 5vw; }
+    margin: 5vw 0 0 30vw; }
   .card {
     width: 40vw;
-    height: auto;
-    border: none; }
+    height: auto; }
   .card-title {
-    color: #065249;
-    font-size: 5vw; } }
+    font-size: 5vw; }
+  /* FORMUALRIO */
+  .form {
+    margin: 0vw 10vw 0vw 10vw; } }
 
 .grids2 {
   margin: 4vw 0vw 0vw 9vw;
@@ -312,6 +316,43 @@ footer {
     height: 15vw;
     width: 15vw;
     margin: 2vw; } }
+
+.contacto-titulo {
+  padding-top: 5vw;
+  color: #E4A4AD;
+  text-align: center; }
+
+.contactoForm-container {
+  background-color: black; }
+
+.contactoForm {
+  margin: 0vw 30vw 0vw 30vw;
+  color: white;
+  padding-top: 1vw;
+  padding-bottom: 5vw; }
+
+.contacto-instagram {
+  margin-top: 2vw; }
+
+.contactoForm-group {
+  padding-top: 3vw; }
+
+.contactoForm-group {
+  padding-top: 2vw; }
+
+.contacto-check {
+  padding-top: 2vw; }
+
+.contacto-select {
+  padding-top: 2vw; }
+
+.btn {
+  margin-top: 2vw; }
+
+@media screen and (max-width: 1125px) {
+  .contactoForm {
+    margin: 0vw 10vw 0vw 10vw;
+    color: white; } }
 
 body {
   font-family: 'Montserrat', sans-serif; }

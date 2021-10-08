@@ -130,6 +130,15 @@ align-items: flex-end;
 
 
 @media screen and (max-width:1125px){
+
+    .main-texto{
+        font-size: 10vw;
+    }
+    .main-iso{
+        display: none;
+        
+    }
+
     
     .servicios-contendedor{
     flex-wrap: wrap;
@@ -153,26 +162,24 @@ align-items: flex-end;
     }
 
     /* CARDS */
-
 .cards-containerDiv{
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 5vw 0 0 30vw;
-
-    margin-top: 5vw;
-
 }
-
 .card{
     width: 40vw;
     height: auto;
-    border: none;
 
 }
-
 .card-title{
-    color: $verde2;
     font-size: 5vw;
 }
+/* FORMUALRIO */
+.form{
+    margin: 0vw 10vw 0vw 10vw ;
 }
+}
+
+
