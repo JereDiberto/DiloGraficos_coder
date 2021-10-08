@@ -254,7 +254,7 @@ footer {
 .contactanosRedesLogo:hover {
   filter: grayscale(0); }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1125px) {
   .grids2 {
     margin: 4vw 0vw 0vw 10vw;
     display: grid;
