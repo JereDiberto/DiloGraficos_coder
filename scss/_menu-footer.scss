@@ -95,3 +95,14 @@ footer{
     background-color: $verde2;
     border-color: $verde2;
 }
+
+
+@media screen and (max-width:600px){
+    /*Floating Back-To-Top Button*/
+#myBtn {
+    bottom: 5em;
+    left: 85%;
+    max-width: 5em;
+}
+
+}

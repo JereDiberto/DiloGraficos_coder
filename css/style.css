@@ -66,6 +66,13 @@ footer {
   background-color: #065249;
   border-color: #065249; }
 
+@media screen and (max-width: 600px) {
+  /*Floating Back-To-Top Button*/
+  #myBtn {
+    bottom: 5em;
+    left: 85%;
+    max-width: 5em; } }
+
 .main-todo {
   display: flex; }
 
@@ -224,6 +231,9 @@ footer {
   text-align: center;
   padding-top: 5.8vw; }
 
+.hoverTitulo {
+  font-size: 2.5vw; }
+
 .contactanosTexto {
   text-align: center;
   color: #065249;
@@ -243,6 +253,48 @@ footer {
 
 .contactanosRedesLogo:hover {
   filter: grayscale(0); }
+
+@media screen and (max-width: 600px) {
+  .grids2 {
+    margin: 4vw 0vw 0vw 10vw;
+    display: grid;
+    grid-template-columns: 1vw;
+    grid-template-rows: 35vw 35vw 35vw 35vw 35vw 35vw 35vw 35vw; }
+  .grids2 div {
+    width: 80vw;
+    height: 32vw; }
+  .container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 2vw; }
+  /*     .image {
+        display: block;
+        width: 40vw;
+        height: 16vw;
+        margin-left: -2.3%;
+    
+    }
+ */
+  .image {
+    width: 80vw;
+    height: 32vw;
+    margin-left: -3%; }
+  .hoverTitulo {
+    font-size: 7vw; }
+  .text {
+    color: #EAE2CC;
+    font-size: 2.5vw; }
+  .contactanosTexto {
+    text-align: center;
+    color: #065249;
+    font-size: 4vw;
+    padding: 0 12vw 5vw 12vw; }
+  .contactanosRedes {
+    margin-left: 30vw; }
+  .contactanosRedesLogo {
+    height: 15vw;
+    width: 15vw;
+    margin: 2vw; } }
 
 body {
   font-family: 'Montserrat', sans-serif; }
