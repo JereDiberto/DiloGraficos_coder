@@ -42,34 +42,6 @@ div ul li{
     background-color: $naranja1;
 }
 
-
-/* footer */
-
-footer{
-    background-color: black;
-}
-
-.footer-contenedeor{
-    height: 10vw;
-}
-
-.footer-links{
-    text-decoration: none;
-    padding: 2vw;
-    color: $blanco;
-    font-size: 1.5vw;
-}
-
-.footer-links:hover{
-    color: $naranja1
-}
-
-
-.footer-logo{
-    width: 10%;
-    margin: 2vw;
-}
-
 /*Floating Back-To-Top Button*/
 #myBtn {
     color: $rosa;
@@ -96,6 +68,41 @@ footer{
     border-color: $verde2;
 }
 
+
+@media screen and (max-width:600px){
+    /*Floating Back-To-Top Button*/
+#myBtn {
+    bottom: 5em;
+    left: 85%;
+    max-width: 5em;
+}
+
+}
+
+
+/* foooooooter */
+
+footer{
+    background-color: $negro;
+}
+
+.footer-button{
+    color: none;
+}
+.footer-button:hover{
+    background-color: $azul2;
+    color: $rosa;
+}
+
+.footer-links{
+    text-decoration: none;
+    padding: 4vw;
+    color: $amarillo;
+}
+
+.footer-links:hover{
+    color: $azul2;
+}
 
 @media screen and (max-width:600px){
     /*Floating Back-To-Top Button*/
