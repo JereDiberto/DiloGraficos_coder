@@ -57,27 +57,29 @@ div ul li {
 footer {
   background-color: black; }
 
-.footer-button {
-  color: none; }
-
-.footer-button:hover {
-  background-color: #286CCD;
-  color: #E4A4AD; }
-
 .footer-links {
   text-decoration: none;
   padding: 4vw;
-  color: #EBB724; }
-
-.footer-links:hover {
   color: #286CCD; }
 
-@media screen and (max-width: 600px) {
-  /*Floating Back-To-Top Button*/
-  #myBtn {
-    bottom: 5em;
-    left: 85%;
-    max-width: 5em; } }
+.footer-links:hover {
+  color: #EBB724; }
+
+.footer-redes {
+  height: 5vw;
+  width: auto;
+  padding: 1vw; }
+
+.copyright {
+  padding-top: 4vw; }
+
+@media screen and (max-width: 1125px) {
+  .footer-logo {
+    margin: 4vw; }
+  .footer-redes {
+    height: 10vw;
+    width: auto;
+    padding: 1vw; } }
 
 .main-todo {
   display: flex; }
@@ -294,14 +296,6 @@ footer {
     position: relative;
     width: 100%;
     margin-bottom: 2vw; }
-  /*     .image {
-        display: block;
-        width: 40vw;
-        height: 16vw;
-        margin-left: -2.3%;
-    
-    }
- */
   .image {
     width: 80vw;
     height: 32vw;

@@ -86,30 +86,39 @@ footer{
     background-color: $negro;
 }
 
-.footer-button{
-    color: none;
-}
-.footer-button:hover{
-    background-color: $azul2;
-    color: $rosa;
-}
+
 
 .footer-links{
     text-decoration: none;
     padding: 4vw;
-    color: $amarillo;
-}
-
-.footer-links:hover{
     color: $azul2;
 }
 
-@media screen and (max-width:600px){
-    /*Floating Back-To-Top Button*/
-#myBtn {
-    bottom: 5em;
-    left: 85%;
-    max-width: 5em;
+.footer-links:hover{
+    color: $amarillo;
+}
+
+.footer-redes{
+    height: 5vw;
+    width: auto;
+    padding: 1vw;
+}
+
+.copyright{
+    padding-top: 4vw;
+}
+
+
+@media screen and (max-width:1125px){
+    .footer-logo{
+        margin: 4vw;
+    }
+    
+
+.footer-redes{
+    height: 10vw;
+    width: auto;
+    padding: 1vw;
 }
 
 }
