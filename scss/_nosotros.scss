@@ -9,3 +9,63 @@ $azul1: #597BB4;
 $azul2: #286CCD;
 $verde1: #82B39B;
 $verde2: #065249;
+
+
+.carousel-nosotros{
+    margin-top: 3vw;
+    width: 80%;
+}
+
+.diseño-container{
+    width: 80%;
+    background-color: $verde2;
+    margin-top: 3vw;
+    margin-bottom: 6vw;
+}
+
+.diseño-container div p{
+    font-size: 4rem;
+    color: $naranja1;
+    font-weight: 800;
+    text-align: center;
+}
+
+
+.nosotros-contenedor{
+    width: 80%;
+}
+.nosotros-titulo{
+    margin-top: 6vw;
+    font-size: 3rem;
+    font-weight: 700;
+    color: $naranja2;
+}
+
+.nosotros-texto{
+    padding-top: 6vw;
+    font-size: 1rem;
+    font-weight: 600;
+    color: $azul2;
+}
+
+.nosotros-img{
+    position: relative;
+    width: 30rem;
+    height: 30rem;
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+.nosotros-img img{
+    width: 130%;
+    height: auto;
+    margin-top: -7vw;
+    margin-left: -8vw;
+
+    transition: 3s;
+}
+
+.nosotros-img img:hover{
+    transform: rotate(360deg);
+    filter: saturate(5);
+}
