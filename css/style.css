@@ -582,7 +582,9 @@ h3 {
     padding: 10vw; }
   /* branging */
   .editorial-font {
-    font-size: 8vw; } }
+    font-size: 8vw; }
+  .branding-topics {
+    margin-top: 3vw; } }
 
 body {
   font-family: 'Montserrat', sans-serif; }
