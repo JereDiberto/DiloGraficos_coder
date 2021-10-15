@@ -86,11 +86,9 @@ footer{
     background-color: $negro;
 }
 
-
-
 .footer-links{
     text-decoration: none;
-    padding: 4vw;
+    padding: 0vw 4vw 0vw 0vw;
     color: $azul2;
 }
 
@@ -105,15 +103,19 @@ footer{
 }
 
 .copyright{
-    padding-top: 4vw;
+    padding-top: 2vw;
 }
 
 
 @media screen and (max-width:1125px){
+
     .footer-logo{
         margin: 4vw;
     }
     
+    .footer-links{
+        padding: 2vw 4vw 0vw 0vw;
+    }
 
 .footer-redes{
     height: 10vw;
