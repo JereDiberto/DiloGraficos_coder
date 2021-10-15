@@ -752,6 +752,16 @@ details[open] > summary {
   transform: rotate(360deg);
   filter: saturate(5); }
 
+@media screen and (max-width: 1125px) {
+  .diseño-container div p {
+    font-size: 1.5rem; }
+  .nosotros-texto {
+    margin-top: -8vw;
+    margin-bottom: 15vw; }
+  .nosotros-img {
+    width: 20rem;
+    height: 20rem; } }
+
 * {
   margin: 0;
   padding: 0; }
