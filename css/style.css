@@ -360,7 +360,8 @@ h2 {
   font-weight: 700;
   color: #065249;
   font-size: 3vw;
-  margin-left: 10vw; }
+  margin-left: 10vw;
+  margin-top: 8vw; }
 
 h3 {
   font-weight: 400;
@@ -486,6 +487,90 @@ h3 {
 .columna9:hover {
   color: #D78B3A; }
 
+/* branding */
+.branding-topics {
+  background-color: #DB5424;
+  height: 1vw;
+  transition: height 1s; }
+
+.branding-topics:hover {
+  height: 4vw; }
+
+.branding-topicsFonts {
+  text-align: center;
+  color: #286CCD;
+  font-weight: 500;
+  opacity: 0%;
+  padding-top: 0.5vw;
+  transition: 1s; }
+
+.branding-topicsFonts:hover {
+  opacity: 100%;
+  font-weight: 700;
+  font-size: 2vw;
+  color: #EAE2CC; }
+
+.contenedor-branding {
+  margin-top: 1vw; }
+
+/* EDITORIAL */
+.editorial-font {
+  font-size: 1.5vw;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center; }
+
+.editorial-paper1 {
+  padding: 4vw 1vw 4vw 1.5vw;
+  margin: 1vw;
+  color: #286CCD;
+  transform: rotate(-10deg);
+  background: linear-gradient(-135deg, #82B39B 5px, transparent 0) 0 5px, linear-gradient(135deg, #82B39B 5px, #fff 0) 0 5px;
+  background-color: #82B39B;
+  background-position: left bottom;
+  background-repeat: repeat-x;
+  background-size: 10px 10px; }
+
+.editorial-paper2 {
+  padding: 4vw 1vw 4vw 1.5vw;
+  margin: 1vw;
+  color: #EAE2CC;
+  transform: rotate(5deg);
+  background: linear-gradient(-135deg, #fff 5px, transparent 0) 0 5px, linear-gradient(135deg, #fff 5px, #286CCD 0) 0 5px;
+  background-color: #286CCD;
+  background-position: right top;
+  background-repeat: repeat-x;
+  background-size: 10px 10px; }
+
+.editorial-paper3 {
+  padding: 4vw;
+  margin: 1vw;
+  color: #065249;
+  transform: rotate(15deg);
+  background: linear-gradient(-135deg, #EBB724 5px, transparent 0) 0 5px, linear-gradient(135deg, #EBB724 5px, #fff 0) 0 5px;
+  background-color: #EBB724;
+  background-position: left bottom;
+  background-repeat: repeat-x;
+  background-size: 10px 10px; }
+
+.editorial-paper4 {
+  padding: 4vw 1vw 4vw 1.5vw;
+  margin: 1vw;
+  color: #EBB724;
+  transform: rotate(-5deg);
+  background: linear-gradient(-137deg, #DB5424 6px, transparent 0) 0 5px, linear-gradient(320deg, #DB5424 5px, #fff 0) 0 5px;
+  background-color: #DB5424;
+  background-position: left bottom;
+  background-repeat: repeat-y;
+  background-size: 10px 10px; }
+
+.packaging-container {
+  background-color: #E4A4AD;
+  padding: 0vw 0vw 10vw 0vw; }
+
+.packaging-titulo {
+  padding-top: 3vw; }
+
 @media screen and (max-width: 1125px) {
   h2 {
     font-size: 6vw; }
@@ -494,7 +579,10 @@ h3 {
   /* community managment */
   .col-md {
     font-size: 10vw;
-    padding: 10vw; } }
+    padding: 10vw; }
+  /* branging */
+  .editorial-font {
+    font-size: 8vw; } }
 
 body {
   font-family: 'Montserrat', sans-serif; }

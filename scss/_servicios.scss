@@ -15,6 +15,7 @@ h2{
     color: $verde2;
     font-size: 3vw;
     margin-left: 10vw;
+    margin-top: 8vw;
 }
 
 h3{
@@ -177,6 +178,118 @@ h3{
 }
 
 
+/* branding */
+
+
+
+.branding-topics{
+    background-color: $naranja2;
+
+    height: 1vw;
+    transition: height 1s;
+}
+
+.branding-topics:hover{
+    height: 4vw;
+
+}
+
+.branding-topicsFonts{
+    text-align: center;
+    color: $azul2;
+    font-weight: 500;
+    opacity: 0%;
+    padding-top: 0.5vw;
+
+    transition: 1s;
+}
+
+.branding-topicsFonts:hover{ 
+    opacity: 100%;
+    font-weight: 700;
+    font-size: 2vw;
+    color: $beige;
+}
+
+.contenedor-branding{
+    margin-top: 1vw;
+}
+
+
+/* EDITORIAL */
+
+.editorial-font{
+    font-size: 1.5vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.editorial-paper1{
+    padding: 4vw 1vw 4vw 1.5vw;
+    margin: 1vw;
+    color: $azul2;
+    transform: rotate(-10deg);
+
+    background: linear-gradient(-135deg, $verde1 5px, transparent 0) 0 5px, linear-gradient(135deg, $verde1 5px, #fff 0) 0 5px;
+    background-color: $verde1;
+    background-position: left bottom;
+    background-repeat: repeat-x;
+    background-size: 10px 10px;
+}
+
+.editorial-paper2{
+    padding: 4vw 1vw 4vw 1.5vw;
+    margin: 1vw;
+    color: $beige;
+    transform: rotate(5deg);
+
+    background: linear-gradient(-135deg, #fff 5px, transparent 0) 0 5px, linear-gradient(135deg, #fff 5px, $azul2 0) 0 5px;
+    background-color: $azul2;
+    background-position: right top;
+    background-repeat: repeat-x;
+    background-size: 10px 10px;
+}
+
+.editorial-paper3{
+    padding: 4vw;
+    margin: 1vw;
+    color: $verde2;
+    transform: rotate(15deg);
+
+    background: linear-gradient(-135deg, $amarillo 5px, transparent 0) 0 5px, linear-gradient(135deg, $amarillo 5px, #fff 0) 0 5px;
+    background-color: $amarillo;
+    background-position: left bottom;
+    background-repeat: repeat-x;
+    background-size: 10px 10px;
+}
+
+.editorial-paper4{
+    padding: 4vw 1vw 4vw 1.5vw;
+    margin: 1vw;
+    color: $amarillo;
+    transform: rotate(-5deg);
+
+    background: linear-gradient(-137deg, $naranja2 6px, transparent 0) 0 5px, linear-gradient(320deg, $naranja2 5px, #fff 0) 0 5px;
+    background-color: $naranja2;
+    background-position: left bottom;
+    background-repeat: repeat-y;
+    background-size: 10px 10px;
+}
+
+.packaging-container{
+    background-color: $rosa;
+    padding: 0vw 0vw 10vw 0vw;
+}
+
+.packaging-titulo{
+    padding-top: 3vw;
+}
+
+
+
+
+
 @media screen and (max-width:1125px){
 
     h2{
@@ -192,6 +305,9 @@ h3{
         padding: 10vw;
     }
 
-
+    /* branging */
+    .editorial-font{
+        font-size: 8vw;
+    }
     
     }
