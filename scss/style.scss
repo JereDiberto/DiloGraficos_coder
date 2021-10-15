@@ -3,7 +3,12 @@
 @import "portfolio";
 @import "contacto";
 @import "servicios";
+@import "nosotros";
 
+*{
+    margin: 0;
+    padding: 0;
+}
 
 body{
     font-family:'Montserrat', sans-serif;
